@@ -1,0 +1,8 @@
+bin
+disasm_
+*.exe
+*.bat
+*.bin
+*.ws
+*.wsc
+output.txt
