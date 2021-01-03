@@ -3,15 +3,15 @@ A wrapper for the x86 disassembler included in [bochs](http://bochs.sourceforge.
 ## Usage
 Disassemble bank 0x1f to ouput.txt
 ```
-wsdisasm -i rom.ws -b 1f
+wsdisasm -b 1f rom.ws
 ```
 Disassemble an already extracted bank to disasm.txt
 ```
-wsdisasm -i bank_1f.bin -o disasm.txt
+wsdisasm -o disasm.txt bank_1f.bin
 ```
 Disassemble the first 0x100 bytes of bank 0x1a
 ```
-wsdisasm -i rom.ws -b 1a -l 100
+wsdisasm -b 1a -l 100 rom.ws
 ```
 Check the help for more information
 ```
